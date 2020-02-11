@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1000,
+    "userId": "robert.hope@hoping.com",
+    "propertyId": 1,
+    "furnished": false,
+    "signedDate": "2019-12-09",
+    "contractStartDate": "2020-01-09",
+    "contractEndDate": "2020-06-09",
+    "deposit": "£1000",
+    "inventory": {
+      "wallsAndCeilings": 3,
+      "floorCoverings": 5,
+      "windows": 2,
+      "doors": 4,
+      "lights": 5,
+      "furniture": 0,
+      "skirting": 3
+    }
+  },
+  {
+    "id": 2000,
+    "userId": "barry.manners@manners.co.uk",
+    "propertyId": 2,
+    "furnished": true,
+    "signedDate": "2019-12-01",
+    "contractStartDate": "2020-01-12",
+    "contractEndDate": "2020-06-12",
+    "deposit": "£1800",
+    "inventory": {
+      "wallsAndCeilings": 5,
+      "floorCoverings": 5,
+      "windows": 5,
+      "doors": 4,
+      "lights": 5,
+      "furniture": 4,
+      "skirting": 3
+    }
+  },
+  {
+    "id": 3000,
+    "userId": "ursula.cummins@cummins.net",
+    "propertyId": 3,
+    "furnished": true,
+    "signedDate": "2019-11-30",
+    "contractStartDate": "2020-02-02",
+    "contractEndDate": "2020-05-02",
+    "deposit": "£1200",
+    "inventory": {
+      "wallsAndCeilings": 3,
+      "floorCoverings": 5,
+      "windows": 5,
+      "doors": 4,
+      "lights": 4,
+      "furniture": 4,
+      "skirting": 3
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "streetAddress": "25 Gilbert Avenue",
+    "city": "Scarborough",
+    "county": "North Yorkshire",
+    "postcode": "YO11 1DY"
+  },
+  {
+    "id": 2,
+    "streetAddress": "55 Western Road",
+    "city": "Scarborough",
+    "county": "North Yorkshire",
+    "postcode": "YO11 1RS"
+  },
+  {
+    "id": 3,
+    "streetAddress": "101 Mountfield Gardens",
+    "city": "Scarborough",
+    "county": "North Yorkshire",
+    "postcode": "YO11 6ER"
+  }
+]

@@ -1,0 +1,46 @@
+type Tenant{
+    email: ID!
+    firstName: String!
+    lastName: String!
+}
+
+type Property{
+    id: ID!
+    streetAddress: String!
+    city: String
+    county: String
+    postcode: String!
+}
+
+type Inventory{
+    agreementId: ID!
+    wallsAndCeilings: Int!
+    floorCoverings: Int!
+    windows: Int!
+    doors: Int!
+    lights: Int!
+    furniture: Int!
+    skirting: Int!
+}
+
+type Agreement{
+    id: ID!
+    furnished: Boolean!
+    signedDate: String!
+    contractStartDate: String
+    contractEndDate: String
+    deposit: Float
+    tenant: Tenant!
+    property: Property!
+    inventory: Inventory!
+}
+
+type Query{
+    getInventories: [Inventory]
+    getInventory(
+        agreementId: ID!
+    ): Inventory
+}
+schema{
+    query: Query
+}
